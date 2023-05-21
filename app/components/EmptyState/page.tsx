@@ -1,3 +1,4 @@
+"use client";
 const EmptyState = () => {
   return (
     <div className="bg-blue-50 h-full px-4 py-10 sm:px-6 lg:px-8 flex justify-center items-center">

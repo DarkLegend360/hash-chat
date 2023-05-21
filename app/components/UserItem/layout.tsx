@@ -1,3 +1,4 @@
+"use client";
 import { useRouter } from "next/navigation";
 import { UserItem } from "./types";
 import { useCallback, useState } from "react";

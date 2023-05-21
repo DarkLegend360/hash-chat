@@ -1,3 +1,4 @@
+"use client";
 import { useSession } from "next-auth/react";
 import { ChatBox } from "./types";
 import { useRouter } from "next/navigation";

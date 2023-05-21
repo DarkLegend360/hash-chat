@@ -6,7 +6,8 @@ import ChatHeader from "../../components/ChatHeader/layout";
 import ChatBody from "../../components/ChatBody/layout";
 import ChatFooter from "../../components/ChatFooter/layout";
 
-const chatId = async ({ params }: { params: IParams }) => {
+const chatId = async (props: ChatProps) => {
+  const { params } = props;
   const chat = await getChatsById(params.chatId);
   const messages = await getMessages(params.chatId);
   if (!chat) {

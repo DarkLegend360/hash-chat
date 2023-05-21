@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import { AvatarProps } from "./types";
 import icon from "../../images/userIcon.png";

@@ -1,3 +1,4 @@
+"use client";
 import { FieldValues, SubmitHandler, useForm } from "react-hook-form";
 import Modal from "../Modal/layout";
 import TextInput from "../TextInput/layout";

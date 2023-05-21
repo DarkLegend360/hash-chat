@@ -30,7 +30,7 @@ const useRoutes = () => {
         icon: HiArrowLeftOnRectangle,
       },
     ],
-    []
+    [chatId, pathname]
   );
   return routes;
 };
